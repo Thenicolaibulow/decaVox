@@ -20,7 +20,8 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
 µVox features the essential hardware necessary, for anyone to get started with open audio, this includes: 
 
 - 4 x Audio Amplifier IC (Merus MA12070P)
-  - 2 x 80W (@ 10% THD) or 2 x 35W (@ 1% THD), @ DC 26V input.
+  - 8 x 80W (@ 10% THD) or 8 x 35W (@ 1% THD), @ DC 26V input.  (BTL MODE)
+  - 4 x 140W (@ 10% THD) or 4 x 80W (@ 1% THD), @ DC 26V input. (PBTL MODE)
   - Supply Voltage 7-26V.
   - Multilevel Class-D Switching technology for unparalleled power efficiency.
     
