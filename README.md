@@ -30,6 +30,14 @@ This repository contains the KiCAD PCB project files for µVox. **Requires KiCAD
   - Wifi (2.4 GHz) & Bluetooth connectivity.
   - Unlimited possibilities, with regards to functionality. Your fantasy is the limit!
 
+- ADAU1701 DSP Core
+  - The dedicated DSP IC, commonly known from MiniDSP. 
+  - Features 256K I2C EEPROM.
+  - Schematics are based off of the official typical implementation, with some inspiration from ['FreeDSP'](https://freedsp.github.io/).
+  - Requires and external USBi programmer, inorder to communicate with Sigma Studio.
+  - The DSP Cores main purpose in this application is to split the main I2S bus from the ESP into a dedicated bus for each amplifier. 
+    - This also allows the DSP to do upto active 4-way crossfilters.
+  
 - Connector for optional U/I board
   - Volume Up / Down rotary encoder. 
   - Power / function push button, with push-and-hold to power feature.
