@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "muVoxSyms")(type "KiCad")(uri "${KIPRJMOD}/Lib/Sym/muVoxSyms.kicad_sym")(options "")(descr ""))
+  (lib (name "PdB_PCB-eagle-import")(type "KiCad")(uri "/Volumes/GoogleDrive-101052742019456208532/My Drive/PdB/Electronics/Kicad/PdB_PCB/PdB_PCB-eagle-import.kicad_sym")(options "")(descr ""))
+)

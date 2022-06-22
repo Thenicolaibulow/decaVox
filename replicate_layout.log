@@ -1,0 +1,88 @@
+05-15 13:57:38 replicate_layout.action_replicate_layout 305:Plugin executed on: 'darwin'
+05-15 13:57:38 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) \n[Clang 6.0 (clang-600.0.57)]'
+05-15 13:57:38 replicate_layout.action_replicate_layout 307:KiCad build version: (6.0.4-0)
+05-15 13:57:38 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 77 started
+05-15 13:57:38 replicate_layout.action_replicate_layout 339:Preparing replicator with U22 as a reference
+05-15 13:57:38 replicate_layout.replicatelayout 141:getting a list of all footprints on board
+05-15 13:57:38 replicate_layout.replicatelayout 162:total modules:464
+05-15 13:57:38 replicate_layout.action_replicate_layout 366:source anchor footprint is 'U22'
+Located on:['', 'DAC3 + Volume Cntrl.2']
+With filenames:['decaVox.kicad_sch', 'Ext_Sch/DAC+Digipot.kicad_sch']
+With sheet_id:['', 'DAC3 + Volume Cntrl.2']
+05-15 13:57:38 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[('U22', ['', 'DAC3 + Volume Cntrl.2']), ('U16', ['', 'DAC0 + Volume Cntrl.']), ('U18', ['', 'DAC1 + Volume Cntrl.1']), ('U20', ['', 'DAC2 + Volume Cntrl.1'])]
+05-15 13:57:38 replicate_layout.action_replicate_layout 384:Showing dialog
+05-15 13:57:38 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(0, 25)
+05-15 13:57:38 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 3840, 2160)
+05-15 13:57:38 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(595, 2160, 2056, 1329)
+05-15 13:57:38 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(3619, 129)
+05-15 13:57:38 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(3306, 129)
+05-15 13:58:35 replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'DAC3 + Volume Cntrl.2', file:'Ext_Sch/DAC+Digipot.kicad_sch'
+05-15 13:58:35 replicate_layout.replicatelayout 184:Source sheet path up to the level:['', 'DAC3 + Volume Cntrl.2']
+05-15 13:58:35 replicate_layout.replicatelayout 188:Footprints on the sheets:
+['U22', 'U16', 'U18', 'U20']
+05-15 13:58:35 replicate_layout.replicatelayout 191:Footprints raw sheet ids:
+['/92bd557c-5cc2-4313-bff3-2f041c0445d5/954d3068-718a-42e4-8b10-7151ff48f127', '/960e3980-6992-4f2f-be18-9d55b25deb4f/954d3068-718a-42e4-8b10-7151ff48f127', '/56f15d77-38a5-49f8-9c67-ee8040dfdd21/954d3068-718a-42e4-8b10-7151ff48f127', '/78902eb3-4741-4f48-b616-29558aa582c3/954d3068-718a-42e4-8b10-7151ff48f127']
+05-15 13:58:35 replicate_layout.replicatelayout 207:All sheets to replicate:
+[['', 'DAC3 + Volume Cntrl.2'], ['', 'DAC0 + Volume Cntrl.'], ['', 'DAC1 + Volume Cntrl.1'], ['', 'DAC2 + Volume Cntrl.1']]
+05-15 13:58:35 replicate_layout.replicatelayout 212:All sheets to replicate sorted:
+[['', 'DAC0 + Volume Cntrl.'], ['', 'DAC1 + Volume Cntrl.1'], ['', 'DAC2 + Volume Cntrl.1'], ['', 'DAC3 + Volume Cntrl.2']]
+05-15 13:58:35 replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
+[['', 'DAC0 + Volume Cntrl.'], ['', 'DAC1 + Volume Cntrl.1'], ['', 'DAC2 + Volume Cntrl.1']]
+05-15 13:58:37 replicate_layout.replicatelayout 177:construcing a list of sheets suitable for replication on level:'DAC3 + Volume Cntrl.2', file:'Ext_Sch/DAC+Digipot.kicad_sch'
+05-15 13:58:37 replicate_layout.replicatelayout 184:Source sheet path up to the level:['', 'DAC3 + Volume Cntrl.2']
+05-15 13:58:37 replicate_layout.replicatelayout 188:Footprints on the sheets:
+['U22', 'U16', 'U18', 'U20']
+05-15 13:58:37 replicate_layout.replicatelayout 191:Footprints raw sheet ids:
+['/92bd557c-5cc2-4313-bff3-2f041c0445d5/954d3068-718a-42e4-8b10-7151ff48f127', '/960e3980-6992-4f2f-be18-9d55b25deb4f/954d3068-718a-42e4-8b10-7151ff48f127', '/56f15d77-38a5-49f8-9c67-ee8040dfdd21/954d3068-718a-42e4-8b10-7151ff48f127', '/78902eb3-4741-4f48-b616-29558aa582c3/954d3068-718a-42e4-8b10-7151ff48f127']
+05-15 13:58:37 replicate_layout.replicatelayout 207:All sheets to replicate:
+[['', 'DAC3 + Volume Cntrl.2'], ['', 'DAC0 + Volume Cntrl.'], ['', 'DAC1 + Volume Cntrl.1'], ['', 'DAC2 + Volume Cntrl.1']]
+05-15 13:58:37 replicate_layout.replicatelayout 212:All sheets to replicate sorted:
+[['', 'DAC0 + Volume Cntrl.'], ['', 'DAC1 + Volume Cntrl.1'], ['', 'DAC2 + Volume Cntrl.1'], ['', 'DAC3 + Volume Cntrl.2']]
+05-15 13:58:37 replicate_layout.replicatelayout 218:All sheets to replicate sorted and without source sheet:
+[['', 'DAC0 + Volume Cntrl.'], ['', 'DAC1 + Volume Cntrl.1'], ['', 'DAC2 + Volume Cntrl.1']]
+05-15 13:58:37 replicate_layout.action_replicate_layout 179:Replicating layout
+05-15 13:58:37 replicate_layout.replicatelayout 927:Starting replication of sheets: [['', 'DAC0 + Volume Cntrl.'], ['', 'DAC1 + Volume Cntrl.1'], ['', 'DAC2 + Volume Cntrl.1']]
+on level: ['', 'DAC3 + Volume Cntrl.2']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+05-15 13:58:37 root 261:updating GUI message: 'Preparing for replication'
+05-15 13:58:37 replicate_layout.replicatelayout 491:Getting the list of source footprints
+05-15 13:58:37 root 266:updating GUI with: 0
+05-15 13:58:37 replicate_layout.replicatelayout 495:Getting the list of all the remaining footprints
+05-15 13:58:37 replicate_layout.replicatelayout 499:Getting nets local to source footprints
+05-15 13:58:37 replicate_layout.replicatelayout 503:Getting source bounding box
+05-15 13:58:37 root 266:updating GUI with: 37
+05-15 13:58:37 replicate_layout.replicatelayout 507:Getting source tracks
+05-15 13:58:37 replicate_layout.replicatelayout 511:Getting source zones
+05-15 13:58:37 replicate_layout.replicatelayout 515:Getting source text items
+05-15 13:58:37 replicate_layout.replicatelayout 519:Getting source text items
+05-15 13:58:37 root 261:updating GUI message: 'Replicating footprints'
+05-15 13:58:37 replicate_layout.replicatelayout 525:Replicating footprints
+05-15 13:58:37 root 266:updating GUI with: 0
+05-15 13:58:37 replicate_layout.replicatelayout 531:Replicating footprints on sheet ['', 'DAC0 + Volume Cntrl.']
+05-15 13:58:37 replicate_layout.replicatelayout 531:Replicating footprints on sheet ['', 'DAC1 + Volume Cntrl.1']
+05-15 13:58:37 replicate_layout.replicatelayout 531:Replicating footprints on sheet ['', 'DAC2 + Volume Cntrl.1']
+05-15 13:58:37 root 266:updating GUI with: 72
+05-15 13:58:37 root 261:updating GUI message: 'Replicating tracks'
+05-15 13:58:37 replicate_layout.replicatelayout 657:Replicating tracks
+05-15 13:58:37 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['', 'DAC0 + Volume Cntrl.']
+05-15 13:58:37 root 266:updating GUI with: 17
+05-15 13:58:37 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['', 'DAC1 + Volume Cntrl.1']
+05-15 13:58:37 replicate_layout.replicatelayout 663:Replicating tracks on sheet ['', 'DAC2 + Volume Cntrl.1']
+05-15 13:58:37 root 261:updating GUI message: 'Replicating zones'
+05-15 13:58:37 replicate_layout.replicatelayout 708:Replicating zones
+05-15 13:58:37 root 266:updating GUI with: 0
+05-15 13:58:37 replicate_layout.replicatelayout 715:Replicating zones on sheet ['', 'DAC0 + Volume Cntrl.']
+05-15 13:58:37 replicate_layout.replicatelayout 715:Replicating zones on sheet ['', 'DAC1 + Volume Cntrl.1']
+05-15 13:58:37 replicate_layout.replicatelayout 715:Replicating zones on sheet ['', 'DAC2 + Volume Cntrl.1']
+05-15 13:58:37 root 261:updating GUI message: 'Replicating text'
+05-15 13:58:37 replicate_layout.replicatelayout 773:Replicating text
+05-15 13:58:37 replicate_layout.replicatelayout 780:Replicating text on sheet ['', 'DAC0 + Volume Cntrl.']
+05-15 13:58:37 replicate_layout.replicatelayout 780:Replicating text on sheet ['', 'DAC1 + Volume Cntrl.1']
+05-15 13:58:37 replicate_layout.replicatelayout 780:Replicating text on sheet ['', 'DAC2 + Volume Cntrl.1']
+05-15 13:58:37 root 261:updating GUI message: 'Replicating drawings'
+05-15 13:58:37 replicate_layout.replicatelayout 804:Replicating drawings
+05-15 13:58:37 replicate_layout.replicatelayout 810:Replicating drawings on sheet ['', 'DAC0 + Volume Cntrl.']
+05-15 13:58:37 replicate_layout.replicatelayout 810:Replicating drawings on sheet ['', 'DAC1 + Volume Cntrl.1']
+05-15 13:58:37 replicate_layout.replicatelayout 810:Replicating drawings on sheet ['', 'DAC2 + Volume Cntrl.1']
+05-15 13:58:37 replicate_layout.action_replicate_layout 201:Replication complete
